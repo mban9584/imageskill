@@ -1,0 +1,21 @@
+# 密钥与本地配置永不提交
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# 生成产物
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+!tests/**/*.png
+.DS_Store

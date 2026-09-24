@@ -1,0 +1,14 @@
+{
+  "name": "image-gen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "通用 OpenAI 兼容流式生图技能：文生图、图生图、文+图生图，零依赖。",
+  "scripts": {
+    "test": "python3 tests/test_image_gen.py",
+    "help": "node scripts/node/image-gen.js --help"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

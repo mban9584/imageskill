@@ -1,0 +1,4 @@
+interface:
+  display_name: "通用流式生图"
+  short_description: "通过任意 OpenAI 兼容图片接口生成或编辑图片。"
+  default_prompt: "使用当前客户端配置的服务端地址与图片模型（可用 --base-url/--model 覆盖），调用本技能生成或编辑图片。"
