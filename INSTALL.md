@@ -5,7 +5,7 @@
 从本仓库克隆，或让客户端下载整个目录（不要只拿 `SKILL.md`）：
 
 ```bash
-git clone https://github.com/<你的账号>/imageskill.git ~/.codex/skills/image-gen
+git clone https://github.com/mban9584/imageskill.git ~/.codex/skills/image-gen
 ```
 
 常见安装位置：

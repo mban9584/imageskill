@@ -1,5 +1,7 @@
 # image-gen：通用流式生图技能包
 
+仓库：<https://github.com/mban9584/imageskill>
+
 一个不绑定任何服务商的 OpenAI 兼容图片生成技能包，包含两个零依赖可执行脚本（Node.js 与 Python）、一份技能说明、一份接口配方手册和一套离线回归测试。
 
 - **三种模式**：文生图（`text`）、图生图（`image`）、文+图生图（`image-prompt`）。
@@ -74,7 +76,7 @@ python3 scripts/python/image_gen.py --mode image-prompt --images ./a.png,./b.png
 ### 作为命令行工具直接跑
 
 ```bash
-git clone https://github.com/<你的账号>/imageskill.git
+git clone https://github.com/mban9584/imageskill.git
 cd imageskill
 node scripts/node/image-gen.js --help
 python3 scripts/python/image_gen.py --help
